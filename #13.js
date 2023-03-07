@@ -1,3 +1,8 @@
+//Training JS #13: Number object and its properties
+//https://www.codewars.com/kata/5722fd3ab7162a3a4500031f/solutions/javascript?filter=me&sort=best_practice&invalids=false
+
+
+
 function whatNumberIsIt(n) {
     //coding here
     if (Number.isNaN(n)) {
