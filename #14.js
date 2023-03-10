@@ -13,10 +13,20 @@ function colorOf(r, g, b) {
 
 // Irena 
 function colorOf(r, g, b) {
-    let colorR = ${ r <= 15 ? "0" : ""
-}${ r.toString(16) };
-let colorG = ${ g <= 15 ? "0" : ""}${ g.toString(16) };
-let colorB = ${ b <= 15 ? "0" : ""}${ b.toString(16) };
+    let colorR = ${
+        r <= 15 ? "0" : ""
+}${
+    r.toString(16)
+};
+let colorG = ${
+    g <= 15 ? "0" : ""}${
+    g.toString(16)
+};
+let colorB = ${
+    b <= 15 ? "0" : ""}${
+    b.toString(16)
+};
 
 return '#' + colorR + colorG + colorB 
     }
+
