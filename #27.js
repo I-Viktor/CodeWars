@@ -1,18 +1,16 @@
 // https://www.codewars.com/kata/573023c81add650b84000429/train/javascript
 
 
-function countGrade(scores) {
-
-    let obj = {
-        S: scores.filter(x => x === 100).length,
-        A: scores.filter(x => x >= 90 && x < 100).length,
-        B: scores.filter(x => x >= 80 && x < 90).length,
-        C: scores.filter(x => x >= 60 && x < 80).length,
-        D: scores.filter(x => x >= 0 && x < 60).length,
-        X: scores.filter(x => x === -1).length
-    }
-    return obj;
-}
+function countGrade(scores){
+    return {
+      'S': scores.filter(function(x){return x == 100}).length,
+      'A': scores.filter(function(x){return (x < 100 && x >= 90)}).length,
+      'B': scores.filter(function(x){return (x < 90 && x >= 80)}).length,
+      'C': scores.filter(function(x){return (x < 80 && x >= 60)}).length,
+      'D': scores.filter(function(x){return (x < 60 && x >= 0)}).length,
+      'X': scores.filter(function(x){return x == -1}).length,
+    };
+  }
 
 
 
