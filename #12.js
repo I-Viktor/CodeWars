@@ -17,6 +17,12 @@ function giveMeFive(obj) {
 }
 
 
-giveMeFive({ Our: "earth", is: "a", beautyful: "world" })//,["earth","world"]);
+
+
+
+
+
+
+giveMeFive({ Our: [1,2,3,4,5], is: "a", beautyful: "world" })//,["earth","world"]);
 giveMeFive({ Ihave: "enough", money: "to", buy: "a", car: "model" })//,["Ihave","money","model"]);
 giveMeFive({ Pears: "than", apple: "sweet" })//,["Pears",//

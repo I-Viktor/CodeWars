@@ -11,7 +11,6 @@ function mirrorImage(arr) {
         return String(a) === String(b).split("").reverse().join("")
 
     }) ? [a, b] : [-1, -1];
-    ;
 
 }
 
